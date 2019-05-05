@@ -1,3 +1,5 @@
+WARNING: Work in progress, do not clone this repo now.
+
 Pluto is a programmable digital watch that re-uses case and LCD 
 panel of the Casio® F-91W.  This is the software repo, for the 
 hardware side of things and a more information, see the
