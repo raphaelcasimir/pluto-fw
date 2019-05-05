@@ -1,4 +1,9 @@
-WARNING: Work in progress, do not clone this repo now.
+**WARNING: Work in progress, do not clone this repo now.**
+
+**This fork aims to refresh the board and firmware to currently available parts.
+See [Charles' repo](https://github.com/CGrassin/pluto) for the PCB (behold the magnificent raytraced 3D view).**
+
+---
 
 Pluto is a programmable digital watch that re-uses case and LCD 
 panel of the Casio® F-91W.  This is the software repo, for the 
