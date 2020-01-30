@@ -1,7 +1,37 @@
 **WARNING: Work in progress, do not clone this repo now.**
 
+I don't have a lot of time to give to this project so it progresses quite slowly.
+
 **This fork aims to refresh the board and firmware to currently available parts.
 See [Charles' repo](https://github.com/CGrassin/pluto) for the PCB (behold the magnificent raytraced 3D view).**
+
+If you just want to run the simulator, here is how, tested on Ubuntu 19.10:
+
+```bash
+# apt dependencies for simulator
+sudo apt install libmbed*
+sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
+sudo apt install libpulse-dev libzmq3-dev
+
+# python dependencies for simulator
+sudo pip3 install --upgrade pip
+sudo pip3 install rtttl zmq
+
+git clone https://github.com/carrotIndustries/pluto-fw
+
+cd pluto-fw
+cd sim
+
+make
+
+chmod +x emu.py sim
+
+# run simulator
+./emu.py&
+./sim
+
+# Done, up and running.
+```
 
 ---
 
